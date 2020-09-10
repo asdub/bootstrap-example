@@ -10,6 +10,30 @@ body {
     background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(232,232,232,0.9542191876750701) 100%); 
 }
 
+mark {
+    background: rgb(142,94,32);
+    background: linear-gradient(83deg, rgba(142,94,32,1) 0%, rgba(223,194,138,0.8253676470588236) 100%);
+    border-radius: 4px;
+    color: white;
+    font-size: 80%;
+    text-transform: uppercase;
+    padding: 0.25em;
+}
+
+.callout-container {
+    height: 100vh;
+    color: white;
+    background: url("../images/whiskey-hero.jpg") no-repeat center center;
+    background-size: cover;
+}
+
 .callout h1 {
     font-family: 'Playfair Display', serif;
 }
+
+.jumbotron {
+    background: none;
+}
+
+
+
