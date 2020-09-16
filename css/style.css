@@ -11,8 +11,8 @@ body {
 }
 
 mark {
-    background: rgb(142,94,32);
-    background: linear-gradient(83deg, rgba(142,94,32,1) 0%, rgba(223,194,138,0.8253676470588236) 100%);
+    background: rgb(142,94,32, 0.5);
+    background: linear-gradient(83deg, rgba(142,94,32,0.5) 0%, rgba(223,194,138,0.0.5) 100%);
     border-radius: 4px;
     color: white;
     font-size: 80%;
@@ -25,15 +25,44 @@ mark {
     color: white;
     background: url("../images/whiskey-hero.jpg") no-repeat center center;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .callout h1 {
     font-family: 'Playfair Display', serif;
+    font-size: 3.5em;
+    margin: 0 0 30px 0;
+}
+
+.callout p small {
+    color: white;
 }
 
 .jumbotron {
-    background: none;
+    background: rgba(0, 0, 0, 0.5); 
 }
+
+.btn-cta {
+    color: black;
+    text-transform: uppercase;
+    font-size: 95%;
+    font-weight: bold;
+    background:  rgba(255, 255, 255, 1); 
+    border-radius: 1000rem;
+    width: 160px;
+
+}
+.btn-cta:hover,
+.btn-cta:active,
+.btn-cta:focus,
+.btn-cta:active:focus {
+    color: white;
+    Background:  rgba(0, 0, 0, 1); 
+}
+
+
 
 
 
