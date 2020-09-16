@@ -20,6 +20,56 @@ mark {
     padding: 0.25em;
 }
 
+.site-wide-alert {
+    border: 0;
+    margin-bottom: 0;
+    border-radius: 0;
+    background: rgb(142,94,32, 0.5);
+    padding: .55rem 1.25rem;
+    color: white;
+}
+
+.site-wide-alert a {
+    color: white;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-underline-position: under;
+    transition: color .15s ease-in-out;
+}
+
+.site-wide-alert a:hover,
+.site-wide-alert a:active,
+.site-wide-alert a:focus,
+.site-wide-alert a:focus {
+    color: black;
+}
+
+.alert-container .col-12 {
+    padding-right: 0;
+    padding-left: 0;
+    margin: 0;
+}
+
+.navalert-container {
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background:  rgba(0, 0, 0, 1); 
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
 .callout-container {
     height: 100vh;
     color: white;
@@ -42,15 +92,16 @@ mark {
 
 .jumbotron {
     background: rgba(0, 0, 0, 0.5); 
+    border: 1px solid white;
 }
 
 .btn-cta {
-    color: black;
-    text-transform: uppercase;
+    color: white;
     font-size: 95%;
     font-weight: bold;
-    background:  rgba(255, 255, 255, 1); 
+    background:  rgba(0, 0, 0, 1); 
     border-radius: 1000rem;
+    border: 1px solid white;
     width: 160px;
 
 }
@@ -58,10 +109,68 @@ mark {
 .btn-cta:active,
 .btn-cta:focus,
 .btn-cta:active:focus {
-    color: white;
-    Background:  rgba(0, 0, 0, 1); 
+    color: black;
+    background:  rgba(255, 255, 255, 1); 
+    
 }
 
+.page-header {
+    margin-bottom: 20px;
+    border-bottom: 0;
+    text-align: center; 
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+.block-divider {
+    width: 20%;
+    height: 1px;
+    background: rgb(142,94,32, 0.5);
+}
+
+.block-divider-white {
+    width: 20%;
+    height: 1px;
+    background: rgba(255,255,255, 1);
+}
+
+.container-quotes, .container-features {
+    padding: 75px 0;
+}
+
+.container-features {
+    background: rgb(142,94,32, 0.5);
+    color: white;
+}
+
+.features {
+    text-align: center;
+}
+
+.features i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.features .btn {
+    color: white;
+    font-weight: bold;
+    background:  rgba(0, 0, 0, 1); 
+    border-radius: 1000rem;
+    padding: 0.5rem 1rem;
+    border: 0;
+}
+
+.features .btn:hover,
+.features .btn:active,
+.features .btn:focus,
+.features .btn:active:focus {
+    color: black;
+    background:  rgba(255, 255, 255, 1); 
+}
 
 
 

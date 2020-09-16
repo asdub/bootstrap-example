@@ -9,7 +9,17 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-light bg-light navbar-expand-sm">
+    <div class="container-fluid navalert-container">
+        <div class="container-fluid alert-container">
+            <div class="row d-none d-sm-block">
+                <div class="col-12">
+                    <div class="site-wide-alert alert alert-warning">
+                        <strong>Sale now on!</strong> Get a 12-month subscription for the price of 6! <a href="/">More details..</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <nav class="navbar navbar-dark navbar-expand-sm">
     <a href="/" class="navbar-brand">Whiskey Drop</a>
 
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,18 +46,10 @@
         </div>
         <div class="d-none d-md-block">
             <p class="navbar-text my-auto mr-2"><i>Great Whiskey delivered to your door!</i></p>
-            <a  data-toggle="modal" data-target="#signUpModal" href="#signUpModal">Sign In/ Sign Up</a>
+            <a class="btn btn-cta" data-toggle="modal" data-target="#signUpModal" href="#signUpModal">Sign In/ Sign Up</a>
         </div>
         </nav>
-            <!--<div class="container-fluid alert-container">
-                    <div class="row d-none d-sm-block">
-                        <div class="col-12">
-                            <div class="alert alert-warning">
-                            <strong>Sale now on!</strong> Get a 12-month subscription for the price of 6! <a href="/">See here for details.</a>
-                            </div>
-                        </div>
-                    </div>
-            </div> -->
+        </div>
             <div class="container-fluid callout-container">
                 <div class="row">
                     <div class="col-12">
@@ -69,8 +71,9 @@
                 <section class="quotes">
                     <div class="container">
                         <div class="row">
-                            <div class="col-12 my-5">
-                                <h2 class="text-uppercase">Quotes:</h2>
+                            <div class="col-12 page-header">
+                                <h2 class="text-uppercase">Quotes</h2>
+                                <hr class="block-divider block-divider-short">
                             </div>
                         </div>
                         <div class="row">
@@ -108,28 +111,28 @@
                 <section class="features">
                     <div class="container">
                         <div class="row">
-                            <div class="col-12 my-5">
+                            <div class="col-12 page-header">
                             <h2 class="text-uppercase">Features</h2>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-12 col-md-6 col-lg-4">
                                 <div class="feature">
-                                    <h3><i class="fas fa-gift mr-2 d-none d-sm-inline"></i>Feature 1 <span class="badge badge-success">New!</span></h3>
+                                    <h3><i class="fas fa-gift mr-2 d-none d-sm-block"></i>Feature 1 <span class="badge badge-success">New!</span></h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                     <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
                                 </div>
                             </div>
                             <div class="col-12 col-md-6 col-lg-4">
                                 <div class="feature">
-                                    <h3><i class="fas fa-credit-card mr-2 d-none d-sm-inline"></i>Feature 2</h3>
+                                    <h3><i class="fas fa-credit-card mr-2 d-none d-sm-block"></i>Feature 2</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                     <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
                                 </div>
                             </div>
                             <div class="col-12 d-md-none d-lg-block col-lg-4">
                                 <div class="feature">
-                                    <h3><i class="fas fa-times-circle mr-2 d-none d-sm-inline"></i>Feature 3</h3>
+                                    <h3><i class="fas fa-times-circle mr-2 d-none d-sm-block"></i>Feature 3</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                     <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
                                 </div>
